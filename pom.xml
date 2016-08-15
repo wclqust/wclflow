@@ -119,7 +119,7 @@
                 <configuration>
                     <noDeploy>true</noDeploy>
                     <pushFeatures>true</pushFeatures>
-                    <pushReleases>true</pushReleases>
+                    <pushReleases>false</pushReleases>
                     <pushHotfixes>true</pushHotfixes>
                     <allowUntracked>true</allowUntracked>
                 </configuration>
