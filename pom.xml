@@ -4,7 +4,7 @@
 
     <groupId>com.meetup</groupId>
     <artifactId>spring-boot-workshop</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3-SNAPSHOT</version>
     <name>spring-boot-workshop</name>
     <description>Spring Boot Workshop</description>
 
@@ -115,15 +115,13 @@
                 <groupId>external.atlassian.jgitflow</groupId>
                 <artifactId>jgitflow-maven-plugin</artifactId>
                 <!-- not released yet version>1.0-m6</version -->
-                <version>1.0-m5.1</version>
+                <version>1.0-m6</version>
                 <configuration>
-                    <autoVersionSubmodules>true</autoVersionSubmodules>
                     <noDeploy>true</noDeploy>
                     <pushFeatures>true</pushFeatures>
                     <pushReleases>false</pushReleases>
                     <pushHotfixes>true</pushHotfixes>
                     <allowUntracked>true</allowUntracked>
-                    <!-- can't use with spring parent as of now consistentProjectVersions>true</consistentProjectVersions-->
                 </configuration>
             </plugin>
         </plugins>
