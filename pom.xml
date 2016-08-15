@@ -115,7 +115,7 @@
                 <groupId>external.atlassian.jgitflow</groupId>
                 <artifactId>jgitflow-maven-plugin</artifactId>
                 <!-- not released yet version>1.0-m6</version -->
-                <version>1.0-m6</version>
+                <version>1.0-m5.1</version>
                 <configuration>
                     <noDeploy>true</noDeploy>
                     <pushFeatures>true</pushFeatures>
@@ -123,6 +123,8 @@
                     <pushHotfixes>true</pushHotfixes>
                     <allowUntracked>true</allowUntracked>
                 </configuration>
+               <username>18612445400@163.com</username>
+               <password>Imseam!!!9876</password>
             </plugin>
         </plugins>
     </build>
