@@ -123,8 +123,6 @@
                     <pushHotfixes>true</pushHotfixes>
                     <allowUntracked>true</allowUntracked>
                 </configuration>
-               <username>18612445400@163.com</username>
-               <password>Imseam!!!9876</password>
             </plugin>
         </plugins>
     </build>
