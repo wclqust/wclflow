@@ -122,7 +122,6 @@
                     <pushReleases>true</pushReleases>
                     <pushHotfixes>true</pushHotfixes>
                     <keepBranch>false</keepBranch>
-                    
                     <allowUntracked>true</allowUntracked>
                 </configuration>
             </plugin>
