@@ -92,8 +92,8 @@ node{
             }else{
                 echo 'No release steps can be done on failed build.'
             }
-            final def RECIPIENTS = emailextrecipients([ [$class: 'DevelopersRecipientProvider'], [$class: 'CulpritsRecipientProvider'] ])
-            step([$class: 'Mailer', notifyEveryUnstableBuild: true, sendToIndividuals: true, recipients: RECIPIENTS])
+            //final def RECIPIENTS = emailextrecipients([ [$class: 'DevelopersRecipientProvider'], [$class: 'CulpritsRecipientProvider'] ])
+           // step([$class: 'Mailer', notifyEveryUnstableBuild: true, sendToIndividuals: true, recipients: RECIPIENTS])
       //  }
 }
 
