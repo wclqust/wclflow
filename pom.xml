@@ -123,6 +123,8 @@
                     <pushHotfixes>true</pushHotfixes>
                     <keepBranch>false</keepBranch>
                     <allowUntracked>true</allowUntracked>
+                    <username>wclqust</username>
+                    <password>Imseam!!!9876</password> 
                 </configuration>
             </plugin>
         </plugins>
