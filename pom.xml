@@ -118,7 +118,7 @@
                 <version>1.0-m5.1</version>
                 <configuration>
                     <noDeploy>true</noDeploy>
-                    <pushFeatures>true</pushFeatures>
+                    <pushFeatures>false</pushFeatures>
                     <pushReleases>true</pushReleases>
                     <pushHotfixes>true</pushHotfixes>
                     <keepBranch>false</keepBranch>
